@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight:normal; } 
+
+.App {
+  font-family: 'Montserrat-Regular', Montserrat; }
+
+.navbar, .navbar-nav, .nav-link{
+    background-color:rgb(33, 206, 237);
+   color:rgb(255, 255, 255);
+    font-family: 'Montserrat-Regular', Montserrat;
+    font-weight:599;
+    font-size:medium; }
+
+.brand{
+  font-size: larger;
+  font-weight: bold;
+  color:rgb(255, 255, 255);
+}
+
+.navbar-light .navbar-brand {
+  color:rgb(255, 255, 255);
+}
+ .navbar-brand:hover, .nav-link:hover {
+  color:rgb(0, 119, 178);
+}
+.navbar-light .navbar-nav .nav-link {
+  color:rgb(255, 255, 255);
+
+}
+.nav-bar:hover{
+  color: rgb(255, 255, 255);
+}

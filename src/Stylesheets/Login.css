@@ -1,0 +1,35 @@
+ .form-control {
+  padding-top: 20px;
+  width: 100%;
+  height: 50%;
+  color: #000000;
+  background-color: rgb(244, 252, 255);
+  background-clip: padding-box;
+  border: 0.150rem solid #6aaec9;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+  color: #000000;
+  background-color: rgb(242, 251, 255);
+  border-color: #6aaec9;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(42, 177, 240, 0.25);
+} 
+
+.form-label{
+  
+  padding-top: 1000;
+color: rgba(0, 183, 255, 0.623);
+font-family: 'Montserrat';
+font-size: large;
+font-weight: 800;
+
+}
+
+h2{
+  color: rgba(0, 183, 255, 0.623);
+  padding-top: 25px;
+  font-weight: bold;
+
+}
