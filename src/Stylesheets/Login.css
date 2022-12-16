@@ -20,16 +20,27 @@
 .form-label{
   
   padding-top: 1000;
-color: rgba(0, 183, 255, 0.623);
-font-family: 'Montserrat';
+  color: rgb(33, 206, 237);
+  font-family: 'Montserrat';
 font-size: large;
 font-weight: 800;
 
 }
 
 h2{
-  color: rgba(0, 183, 255, 0.623);
+  color:rgb(33, 206, 237);
   padding-top: 25px;
   font-weight: bold;
 
+}
+
+
+[type=submit]{
+  padding-top: 14px;
+  flex-wrap: center;
+  padding-left: 47%;
+  padding-right: 49%;
+  background-color: rgb(33, 206, 237);
+  font-weight: bold;
+  font-size: medium;
 }

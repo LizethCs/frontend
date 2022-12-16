@@ -1,0 +1,34 @@
+.car{
+
+    margin: 10px 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel{
+    -ms-flex-align: center;
+width: 1366px;
+height:406px;
+
+}
+
+.carousel-indicators, .carousel-item {
+    color: rgb(255, 66, 66);
+  padding-left: 40%;
+    
+
+}
+.carousel-caption, .carousel-item{
+    padding-left:15%;
+    color:black;
+    font-weight:bold;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    color: black;
+    background-color: black;
+}
+.carousel-control-prev{
+    padding-right: 39%
+}
