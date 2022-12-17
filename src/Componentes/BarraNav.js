@@ -13,7 +13,7 @@ function BarraNav(){
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
-                  <NavLink className="nav-link" to="/citas">Citas</NavLink>
+                  <NavLink className="nav-link" to="/citas">Lista de citas</NavLink>
                   <NavLink className="nav-link" to="/agendar-cita">Agendar Cita</NavLink>
                   <NavLink className="nav-link" to="/pacienteLogin">Ingresar Paciente</NavLink>
                   <NavLink className="nav-link" to="/vetLogin">Ingresar veterinario</NavLink>

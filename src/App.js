@@ -7,6 +7,7 @@ import Pacientes from "./Componentes/Pacientes";
 import VetForm from "./Componentes/VetForm";
 import AgendarCita from "./Componentes/AgendarCita"
 
+
 function App() {
 
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/pacientes" element={<Pacientes/>}/>
         <Route path="/vetLogin" element={<VetForm/>}/>
         <Route path="/agendar-cita" element={<AgendarCita/>}/>
+        <Route path="/citas" element={<Citas/>}/>
        </Routes>
        </HashRouter>
     </div>

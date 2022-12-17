@@ -31,6 +31,9 @@ h2{
   color:rgb(33, 206, 237);
   padding-top: 25px;
   font-weight: bold;
+  font-size:large;
+  padding-left:40%;
+  padding-bottom: 1%;
 
 }
 
@@ -44,3 +47,7 @@ h2{
   font-weight: bold;
   font-size: medium;
 }
+ .btn-act{
+  background-color: rgb(33, 206, 237);
+
+ }

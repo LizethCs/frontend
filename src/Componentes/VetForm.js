@@ -15,15 +15,13 @@ function VetForm() {
   const [password, setPassword] = useState("");
 
   let cajas = {
-    nombre:nombre,
+    nombre:nombre.toLowerCase(),
     apellido:apellido,
     ntarjetaprof:parseInt(tarjetap),
     cuenta:{
         email:email,
-        password:password}
-   
+        password:password}   
   }; 
-  console.log(cajas);
 
   return( <Container className="cont">
        
@@ -76,8 +74,7 @@ function VetForm() {
         console.log(err);
       }
     }}>
-      Enviar
-    </Button>
+      Enviar </Button>
   </Form>
   </Col>
   </Row>
@@ -85,8 +82,3 @@ function VetForm() {
 }
 
 export default VetForm;
-// private String id;
-// private String nombre;
-// private String apellido;
-// private long ntarjetaprof;
-// private Object cuenta; //ejemplo cuenta: {"emai": "cuenta@veterinaria.com", "password": "juanse1421"}
