@@ -1,9 +1,5 @@
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
-import Form from "react-bootstrap/Form";
-import "../Stylesheets/Login.css";
+import {Container, Row, Col, Button, Form} from "react-bootstrap";
+import "../Stylesheets/Styles.css";
 import React, { useState } from "react";
 import { guardarVet } from "../server/Server";
 
@@ -72,6 +68,10 @@ function VetForm() {
     } 
       catch (err){
         console.log(err);
+        alert("Hubo un error. Intente nuevamente.");
+        setTimeout(function () {
+          window.location.reload();
+        }, 1000);
       }
     }}>
       Enviar </Button>

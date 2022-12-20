@@ -1,5 +1,4 @@
-import Carousel from 'react-bootstrap/Carousel';
-import Container from 'react-bootstrap/Container';
+import {Carousel, Container} from 'react-bootstrap';
 import "../Stylesheets/Home.css";
 
 function Home(){
@@ -13,8 +12,8 @@ function Home(){
         alt="First slide"
       />
       <Carousel.Caption>
-        <h3>First slide label</h3>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+    
+        <p>Bienvenido a la aplicación de citas veterinarias.</p>
       </Carousel.Caption>
     </Carousel.Item>
   </Carousel>
